@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'dscj_web_icon';
+    src:    url('fonts/dscj_web_icon.eot?a18kl3');
+    src:    url('fonts/dscj_web_icon.eot?a18kl3#iefix') format('embedded-opentype'),
+        url('fonts/dscj_web_icon.ttf?a18kl3') format('truetype'),
+        url('fonts/dscj_web_icon.woff?a18kl3') format('woff'),
+        url('fonts/dscj_web_icon.svg?a18kl3#dscj_web_icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="dscj-icon-"], [class*=" dscj-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'dscj_web_icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dscj-icon-gou-mini:before {
+    content: "\e900";
+}
+.dscj-icon-gou-round:before {
+    content: "\e901";
+}
+.dscj-icon-close:before {
+    content: "\e902";
+}
+.dscj-icon-download:before {
+    content: "\e903";
+}
+.dscj-icon-search:before {
+    content: "\e904";
+}
+.dscj-icon-weixin:before {
+    content: "\e905";
+}
+.dscj-icon-weibo:before {
+    content: "\e906";
+}
+.dscj-icon-sex-nan:before {
+    content: "\e907";
+}
+.dscj-icon-sex-nv:before {
+    content: "\e908";
+}
+.dscj-icon-qq:before {
+    content: "\e909";
+}
+

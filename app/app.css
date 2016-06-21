@@ -1,0 +1,57 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.ta-editor {
+  min-height: 300px;
+  height: auto;
+  overflow: auto;
+  font-family: inherit;
+  font-size: 100%;
+}
+.btn-group{
+  float: left;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+  min-height: 30px;
+  margin-bottom: 5px;
+}
+.btn-default{
+  background: transparent;
+  border: none;
+}
+.btn-default:hover{
+  border: 1px solid #ccc;
+}
+.form-control{
+  float: left;
+  clear: both;
+  width: 100%;
+  border: 1px solid #ccc;
+}

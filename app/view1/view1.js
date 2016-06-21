@@ -11,7 +11,7 @@ angular.module('myApp.view1', ['ngRoute','ngCookies'])
 
 .controller('View1Ctrl', ['$scope','$cookieStore',function($scope,$cookieStore) {
   $cookieStore.put("name","my name");
-  $cookieStore.get("name") == "my name";
+  //$cookieStore.get("name");
   //$cookieStore.get("__ngDebug");
 
   $cookieStore.put("person", {
@@ -19,6 +19,5 @@ angular.module('myApp.view1', ['ngRoute','ngCookies'])
     age: 18
   });
 
-  $scope.person = $cookieStore.get("lc");
-  console.log($scope.person);
+  $scope.person = $cookieStore.get("person");
 }]);

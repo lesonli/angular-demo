@@ -29,10 +29,8 @@ angular.module('myApp.view2', ['ngRoute','textAngular'])
     taOptions.forceTextAngularSanitize = true; // set false to allow the textAngular-sanitize provider to be replaced
     taOptions.keyMappings = []; // allow customizable keyMappings for specialized key boards or languages
     taOptions.toolbar = [
-      ['h1', 'h2', 'h3', 'h4', 'h5', 'colourRed', 'p', 'pre', 'quote'],
-      ['bold', 'italics', 'underline', 'ul', 'ol', 'redo', 'undo', 'clear'],
-      ['justifyLeft','justifyCenter','justifyRight', 'justifyFull'],
-      ['html', 'insertImage', 'insertLink']
+      ['bold', 'italics', 'underline', 'ul', 'ol','pre', 'quote'],
+      ['insertImage', 'insertVideo']
     ];
     taOptions.classes = {
       focussed: 'focussed',

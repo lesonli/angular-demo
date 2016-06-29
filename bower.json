@@ -13,6 +13,13 @@
     "html5-boilerplate": "^5.3.0",
     "textAngular": "^1.5.1",
     "angular-cookies": "^1.5.7",
-    "angular-material": "^1.0.9"
+    "angular-material": "^1.0.9",
+    "videogular": "^1.4.4",
+    "videogular-themes-default": "^1.4.4",
+    "videogular-controls": "^1.4.4",
+    "videogular-buffering": "^1.4.4",
+    "videogular-overlay-play": "^1.4.4",
+    "videogular-poster": "^1.4.4",
+    "angular-sanitize": "^1.5.7"
   }
 }
